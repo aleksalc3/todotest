@@ -2,7 +2,7 @@
   <!-- views folder sluzi da se objedini nekoliko komponenti u celoviti prikaz -->
   <div>
     <!--3. Renderujemo komponentu -->
-    <span>TEST 123</span>
+    <span></span>
     <Navbar />
     <List />
   </div>
@@ -11,8 +11,8 @@
 <script>
 // Redosled ukljucivanja komponentni je sledeci:
 // 1. importujemo komponentu
-import Navbar from "@/components/Navbar.vue";
-import List from "@/components/List.vue";
+import Navbar from "../views/Navbar.vue";
+import List from "../views/List.vue";
 export default {
   // 2. registrujemo komponentu
   components: {
